@@ -12,7 +12,7 @@ export class AppComponent  {
   }
 
   ngOnInit() {  
-   this.value=this.formatDate("1:00");
+   //this.value=this.formatDate("1:00");
   }
 
 formatDate(date:string) {
