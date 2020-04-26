@@ -5,37 +5,13 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
-import {
-  CalendarModule,
-  DropdownModule,
-  MultiSelectModule,
-  FileUploadModule,
-  RadioButtonModule,
-  CheckboxModule,
-  ConfirmDialogModule,
-  TabViewModule,
-  DialogModule,
-  InputTextareaModule,
-  InputMaskModule
-} from "primeng/primeng";
+import { CalendarModule } from "primeng";
 
 
 @NgModule({
   imports:      [ 
-    BrowserModule, 
-    BrowserAnimationsModule,
-    FormsModule,
-    CalendarModule,
-  DropdownModule,
-  MultiSelectModule,
-  FileUploadModule,
-  RadioButtonModule,
-  CheckboxModule,
-  ConfirmDialogModule,
-  TabViewModule,
-  DialogModule,
-  InputTextareaModule,
-  InputMaskModule
+   BrowserModule, FormsModule, BrowserAnimationsModule, 
+   CalendarModule
      ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
