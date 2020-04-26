@@ -6,8 +6,18 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
 import {
-  CalendarModule
-} from "primeng";
+  CalendarModule,
+  DropdownModule,
+  MultiSelectModule,
+  FileUploadModule,
+  RadioButtonModule,
+  CheckboxModule,
+  ConfirmDialogModule,
+  TabViewModule,
+  DialogModule,
+  InputTextareaModule,
+  InputMaskModule
+} from "primeng/primeng";
 
 
 @NgModule({
@@ -16,6 +26,16 @@ import {
     BrowserAnimationsModule,
     FormsModule,
     CalendarModule,
+  DropdownModule,
+  MultiSelectModule,
+  FileUploadModule,
+  RadioButtonModule,
+  CheckboxModule,
+  ConfirmDialogModule,
+  TabViewModule,
+  DialogModule,
+  InputTextareaModule,
+  InputMaskModule
      ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
